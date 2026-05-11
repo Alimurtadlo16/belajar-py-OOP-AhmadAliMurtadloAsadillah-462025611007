@@ -1,3 +1,4 @@
+#Pertemuan 5
 class DompetDigital:
     def __init__(self, pemilik, data_rahasia, saldo, pin) -> None:
         self.__pemilik = pemilik
