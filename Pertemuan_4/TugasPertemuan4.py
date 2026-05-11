@@ -1,3 +1,4 @@
+#Pertemuan 4
 class Produk:
     def __init__(self, nama, harga):
         """Metode inisialisasi untuk atribut objek."""
