@@ -1,3 +1,4 @@
+#Pertemuan 2
 class SepedaMotor:
     """
     Class untuk merepresentasikan objek dunia nyata: Sepeda Motor.
