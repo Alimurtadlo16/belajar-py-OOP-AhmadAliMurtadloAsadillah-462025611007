@@ -1,3 +1,4 @@
+#Pertemuan 3
 class Karyawan:
     def __init__(self, nama, jabatan, gaji_pokok):
         self.nama = nama
