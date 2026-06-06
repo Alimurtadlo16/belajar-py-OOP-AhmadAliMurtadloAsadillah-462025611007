@@ -27,3 +27,22 @@ Pastikan Python 3 sudah terinstal di komputermu. Kamu bisa mengeceknya lewat Ter
 
 ```bash
 python --version
+```
+
+# Langkah-langkah Run Kode
+Clone repositori ini ke komputer lokalmu:
+```bash
+git clone [https://github.com/Alimurtadlo16/belajar-py-OOP-AhmadAliMurtadloAsadillah-462025611007.git](https://github.com/Alimurtadlo16/belajar-py-OOP-AhmadAliMurtadloAsadillah-462025611007.git)
+```
+# Masuk ke direktori folder proyek atau file .py yang ingin dijalankan menggunakan terminal.
+Jalankan file Python menggunakan perintah:
+```bash
+python nama_file.cpp
+```
+# (Sesuaikan nama_file.py dengan file OOP yang ingin kamu uji coba)
+📚 Catatan Pembelajaran & Atribusi
+Seluruh kode di dalam repositori ini merupakan hasil proses belajar mandiri saya dalam memahami paradigma pemrograman modern. Logika dan arsitektur objek di dalam proyek ini sebagian besar merujuk dan terinspirasi dari materi terstruktur yang dibagikan oleh kanal YouTube Kelas Terbuka.
+
+Menguasai OOP di Python memberikan saya fondasi logika yang kuat sebelum nantinya menerapkan konsep pemrograman berbasis objek ini pada bahasa lain seperti Java untuk kebutuhan pengembangan perangkat lunak.
+
+Jika Anda memiliki pertanyaan seputar implementasi OOP Python atau ingin berdiskusi, silakan hubungi saya melalui LinkedIn.
