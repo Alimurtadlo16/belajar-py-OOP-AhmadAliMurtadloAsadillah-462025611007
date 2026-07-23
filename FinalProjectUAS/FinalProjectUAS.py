@@ -125,3 +125,10 @@ def main():
     print("         E-PERIZINAN UNIDA GONTOR       ")
     print("========================================")
     while True:
+        print("\n=====  MAIN MENU   =====")
+        print("1. Ajukan Perizinan Keluar (Simulation WA)")
+        print("2. Approval Staf DeKaPe (#Setuju/ #Tolak)")
+        print("3. Lihat Dasboard Rekapitulasi Harian (Monitor)")
+        print("4. Verifikasi Kembali Ke kampus (Satpam)")
+        print("5. Keluar Aplikasi")
+        pilihan = input("Pilih menu (1-5): ").strip()
