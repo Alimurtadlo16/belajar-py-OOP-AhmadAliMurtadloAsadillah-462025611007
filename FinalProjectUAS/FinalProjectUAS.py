@@ -113,3 +113,15 @@ class SistemPerizinan:
             return "Peringatan: Anda Telah Melanggar Peraturan Kampus Silahkan Melapor Ke Pihak DKP"
     @staticmethod
     def parse_wa_command(command: str):
+        parts = command.strip().split(";")
+        if len(parts) < 6 or not parts[0].upper().startswith("#IZIN"):
+            raise InvalidInputError("Format pesan WhatsApp tidak valid! Gunakan: #IZIN;Nama;NIM;Semester;Prodi;Tujuan;Alasan;Waktu")
+        return parts
+def main():
+    db = DatabaseInMemory()
+    staf_piket = StafDeKaPe("Ust. Ahmad", "STF-001")
+    satpam_pos = SatpamGerbangKampus("Pak Budi", "SAT-001")
+    print("========================================")
+    print("         E-PERIZINAN UNIDA GONTOR       ")
+    print("========================================")
+    while True:
