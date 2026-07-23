@@ -132,3 +132,6 @@ def main():
         print("4. Verifikasi Kembali Ke kampus (Satpam)")
         print("5. Keluar Aplikasi")
         pilihan = input("Pilih menu (1-5): ").strip()
+        try:
+            if pilihan == "1":
+                print()
